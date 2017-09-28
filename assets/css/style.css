@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	padding: 0;
+  padding: 0;
 }
 
 .yellow {
@@ -31,11 +31,14 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
+  position: absolute;
+  width: 100%;
+  min-height: calc(100vh - 20.5rem);
 }
 
 .card {
   float: left;
-  margin: 1rem 0.5rem;
+  margin: 1rem;
   border: 0;
   box-shadow: 0 0 10px 4px rgba(0,0,0,0.2);
   transition: all 0.2s;
