@@ -103,8 +103,9 @@ body {
 }
 
 /* tags background */
-.b-4858b6 { background: #4858b6; color: rgba(255,255,255,0.6); }
-.b-93ff00 { background: #93ff00; }
-.b-469ce9 { background: #469ce9; color: rgba(255,255,255,0.6); }
-.b-eb30af { background: #eb30af; color: rgba(255,255,255,0.6); }
-.b-ffc600 { background: #ffc600; }
+.white-text { color: rgba(255, 255, 255, 0.6); }
+.b-4858b6 { background: #4858b6; } /* dom & interface */
+.b-93ff00 { background: #93ff00; } /* friends with css */
+.b-469ce9 { background: #469ce9; } /* audio + video */
+.b-eb30af { background: #eb30af; } /* fundamentals */
+.b-ffc600 { background: #ffc600; } /* fun + experimental */
