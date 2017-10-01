@@ -75,6 +75,19 @@ body {
 	font-size: 85%;
 }
 
+.card-number {
+	position: absolute;
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    top: 0;
+    left: 0;
+    line-height: 1.6rem;
+    display: inline-block;
+    padding: 0 8px;
+    text-align: center;
+	font-size: 11px;
+}
+
 footer {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
