@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-  padding: 0;
+	padding: 0;
 }
 
 .yellow {
@@ -8,74 +8,78 @@ body {
 }
 
 .header {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  margin-bottom: 0;
-  background-color: #374A72;
-  color: #fff;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	margin-bottom: 0;
+	background-color: #374A72;
+	color: #fff;
 }
 
 .header p:last-child {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .header-heading {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 .header .container {
-  max-width: 40rem;
+	max-width: 40rem;
 }
 
 .card-list {
-  padding-top: 1.5rem;
-  padding-bottom: 3rem;
-  background-color: #f7f7f7;
-  position: absolute;
-  width: 100%;
-  min-height: calc(100vh - 20.5rem);
+	padding-top: 1.5rem;
+	padding-bottom: 3rem;
+	background-color: #f7f7f7;
+	position: absolute;
+	width: 100%;
+	min-height: calc(100vh - 20.5rem);
 }
 
 .card {
-  float: left;
-  margin: 1rem;
-  border: 0;
-  box-shadow: 0 0 10px 4px rgba(0,0,0,0.2);
-  transition: all 0.2s;
+	float: left;
+	padding: 0;
+	margin: 10px 15px;
+	border: 0;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+	transition: all 0.2s;
+	justify-content: center;
 }
 
 .card > a {
-  text-decoration: none;
-  color: #868e96;
+	text-decoration: none;
+	color: #868e96;
 }
 
 .card:hover {
-  transform: scale(1.1);
-  z-index: 2;
+	transform: scale(1.1);
+	z-index: 2;
 }
 
 .card > a > img {
-  height: 150px;
-  object-fit: cover;
-  margin-bottom: .75rem;
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: .75rem;
 }
 
 .card-title {
-  font-size: 1.25em;
-  text-transform: uppercase;
-  text-align: center;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: auto;
 }
 
 .card-text {
-  padding: 10px;
-  font-size: 85%;
+	padding: 10px;
+	font-size: 85%;
 }
 
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 footer p {
-  margin-bottom: .25rem;
+	margin-bottom: .25rem;
 }
