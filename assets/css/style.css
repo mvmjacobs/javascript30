@@ -49,6 +49,7 @@ body {
 .card > a {
 	text-decoration: none;
 	color: #868e96;
+	height: 100%;
 }
 
 .card:hover {
@@ -66,13 +67,10 @@ body {
 .card-title {
 	font-size: 1.25em;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 	margin-top: auto;
-}
-
-.card-text {
-	padding: 10px;
-	font-size: 85%;
+	padding: 0 20px;
+	color: rgba(0,0,0,0.9);
 }
 
 .card-number {
@@ -81,18 +79,32 @@ body {
     color: #fff;
     top: 0;
     left: 0;
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     display: inline-block;
     padding: 0 8px;
     text-align: center;
-	font-size: 11px;
+	font-size: 10px;
 }
 
-footer {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+.card-tags {
+	padding: 0 20px !important;
+	list-style: none;
+	padding: 0;
 }
 
-footer p {
-	margin-bottom: .25rem;
+.card-tag {
+	text-transform: uppercase;
+    padding: 2px 4px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 11px;
+    color: rgba(0,0,0,0.5);
+	font-weight: 600;
 }
+
+/* tags background */
+.b-4858b6 { background: #4858b6; color: rgba(255,255,255,0.6); }
+.b-93ff00 { background: #93ff00; }
+.b-469ce9 { background: #469ce9; color: rgba(255,255,255,0.6); }
+.b-eb30af { background: #eb30af; color: rgba(255,255,255,0.6); }
+.b-ffc600 { background: #ffc600; }
