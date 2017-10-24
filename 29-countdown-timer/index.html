@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Timer</title>
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="../assets/img/js-logo.png">
+	</head>
+
+	<body>
+		<div class="timer">
+			<div class="timer-controls">
+				<button data-time="600" class="timer-button">Coffee Break 10</button>
+				<button data-time="1500" class="timer-button">Quick Task 25</button>
+				<button data-time="3000" class="timer-button">Work 50</button>
+				<button data-time="4200" class="timer-button">Lunch Break</button>
+				<form name="customForm" id="custom">
+					<input type="text" name="minutes" placeholder="Enter Minutes">
+				</form>
+			</div>
+			<div class="display">
+				<h1 class="display-time-left">00:00:00</h1>
+				<p class="display-end-time"></p>
+			</div>
+		</div>
+
+		<script src="scripts.js"></script>
+	</body>
+
+</html>
