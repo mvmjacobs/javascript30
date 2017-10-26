@@ -16,7 +16,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 10rem;
+  font-size: 7rem;
   line-height:1;
   margin-bottom: 0;
 }
@@ -66,4 +66,38 @@ h1 {
 
 .hole.up .mole {
   top:0;
+}
+
+.flex {
+	margin-top: 50px;
+	display:flex;
+	flex-direction:column;	
+}
+
+.button {
+	width: 200px;
+	background:none;
+	border:0;
+	cursor: pointer;
+	color:white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	background:rgba(0,0,0,0.1);
+	border-bottom:3px solid rgba(0,0,0,0.2);
+	border-right:1px solid rgba(0,0,0,0.2);
+	padding:15px;
+	font-family: 'Inconsolata', monospace;
+	margin: 0 10px;
+  }
+
+.button:hover,
+.button:focus {
+	background:rgba(0,0,0,0.2);
+	outline:0;
+	text-align: center;
+}
+
+.buttons {
+	margin-bottom: 80px;
+	text-align: center;
 }
